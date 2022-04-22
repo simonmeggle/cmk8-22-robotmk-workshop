@@ -1,9 +1,0 @@
-1650641326695	geckodriver	INFO	Listening on 127.0.0.1:51363
-1650641328683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51364" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SIMON_~1\\AppData\\Local\\Temp\\2\\rust_mozprofiledw74Ld"
-1650641329123	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SIMON_~1\\AppData\\Local\\Temp\\2\\rust_mozprofiledw74Ld\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:51364/devtools/browser/fed09349-74cb-488b-aa16-64fd158b40a6
-1650641330873	Marionette	INFO	Listening on port 51388
-Read port: 51388
-1650641330923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1650641333375	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
