@@ -1,0 +1,112 @@
+1650635254931	geckodriver	INFO	Listening on 127.0.0.1:54516
+1650635256941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SIMON_~1\\AppData\\Local\\Temp\\2\\rust_mozprofileIXvQ11"
+1650635257330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SIMON_~1\\AppData\\Local\\Temp\\2\\rust_mozprofileIXvQ11\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54517/devtools/browser/7365fa6a-7b06-4332-8262-a4607644d5b5
+1650635259073	Marionette	INFO	Listening on port 54538
+Read port: 54538
+1650635259182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483692"
+console.error: "Unable to find target with innerWindowId:2147483692"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: "Unable to find target with innerWindowId:2147483698"
+console.error: "Unable to find target with innerWindowId:2147483698"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: "Unable to find target with innerWindowId:2147483705"
+console.error: "Unable to find target with innerWindowId:2147483705"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: "Unable to find target with innerWindowId:2147483712"
+console.error: "Unable to find target with innerWindowId:2147483712"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: "Unable to find target with innerWindowId:2147483719"
+console.error: "Unable to find target with innerWindowId:2147483719"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: "Unable to find target with innerWindowId:2147483726"
+console.error: "Unable to find target with innerWindowId:2147483726"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: "Unable to find target with innerWindowId:2147483733"
+console.error: "Unable to find target with innerWindowId:2147483733"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483740"
+console.error: "Unable to find target with innerWindowId:2147483740"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483747"
+console.error: "Unable to find target with innerWindowId:2147483747"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483754"
+console.error: "Unable to find target with innerWindowId:2147483754"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.error: "Unable to find target with innerWindowId:2147483761"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483768"
+console.error: "Unable to find target with innerWindowId:2147483768"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: "Task cancelled"
+console.warn: "source source-server0.conn0.windowGlobal2147483775/source195 does not exist"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483775"
+console.error: "Unable to find target with innerWindowId:2147483775"

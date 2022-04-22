@@ -1,0 +1,17 @@
+1650629368609	geckodriver	INFO	Listening on 127.0.0.1:53883
+1650629370624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53884" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SIMON_~1\\AppData\\Local\\Temp\\2\\rust_mozprofile0FJfzX"
+1650629371036	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SIMON_~1\\AppData\\Local\\Temp\\2\\rust_mozprofile0FJfzX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53884/devtools/browser/47c211a8-ebe2-4948-bffe-b2c30f8a8248
+1650629373018	Marionette	INFO	Listening on port 53908
+Read port: 53908
+1650629373064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650629375059	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-04-22T12:09:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-04-22T12:09:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-04-22T12:09:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-04-22T12:09:35Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[Child 4088, MediaDecoderStateMachine #1] WARNING: Decoder=8f50a33900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577
+[Child 4088, MediaDecoderStateMachine #1] WARNING: Decoder=8f518f2d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577
+[Child 4088, MediaDecoderStateMachine #1] WARNING: Decoder=8f50a33600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577
+[Child 4088, MediaDecoderStateMachine #1] WARNING: Decoder=8f50a34500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577

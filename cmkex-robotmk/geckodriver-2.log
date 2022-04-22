@@ -1,0 +1,37 @@
+1650634199633	geckodriver	INFO	Listening on 127.0.0.1:54134
+1650634201645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SIMON_~1\\AppData\\Local\\Temp\\2\\rust_mozprofilefrdHba"
+1650634202041	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SIMON_~1\\AppData\\Local\\Temp\\2\\rust_mozprofilefrdHba\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54135/devtools/browser/3f6b391c-b6b4-4a8d-9846-24cc75b99bdf
+1650634203798	Marionette	INFO	Listening on port 54157
+Read port: 54157
+1650634203886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Unable to find target with innerWindowId:2147483650"
+console.error: "Unable to find target with innerWindowId:2147483650"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483656"
+console.error: "Unable to find target with innerWindowId:2147483656"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://exchange.checkmk.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:2147483663"
+console.error: "Unable to find target with innerWindowId:2147483663"
+console.error: "Unable to find target with innerWindowId:2147483663"
+JavaScript error: resource://devtools/server/actors/webconsole/utils.js, line 360: SyntaxError: Document.evaluate: The expression is not a legal expression
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
