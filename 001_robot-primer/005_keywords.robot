@@ -14,10 +14,11 @@ Write Hello World To File
 
 Test If File Is Friendly
     ${file_content} =               Get File                            new_file.txt
-    Compare The Results      ${file_content}   
+    Compare The Results      ${file_content}     # ⚠️  
 
+# ⚠️  
 *** Keywords ***
 Compare The Results
-    [Arguments]  ${text}
+    [Arguments]  ${text}  
     Should Be Equal                 ${text}                     ${GOOD_TEXT}
     Should Not Be Equal             ${text}                     ${BAD_TEXT}

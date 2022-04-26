@@ -23,8 +23,9 @@
 
 # Watch out - this time we have to use a dot instead of text().
 # The difference between text() and ".": 
-#  1) contains(text(), 'abc')  ==> only return those text nodes which are direct children of the curent node.
-#  2) contains(., 'abc')       ==> . is "stringified current node", with all contained text nodes, recursively resolved.
+#  1) contains(text(), 'abc')  ==> only return the text node of the curent node.
+#  2) contains(., 'abc')       ==> . is "stringified current node", with all contained text nodes 
+#                                      concatenated, recursively resolved.
 
 # <a href="/p/robotmk" class="package-list__item__link">
 #    <b>RobotMK</b> | Robot Framework End2End
