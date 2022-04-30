@@ -4,23 +4,16 @@
 #
 # The adressbook ap is a little bit picky: doubleclicking an entry which is not selected 
 # does not work reliable!
-# To do the "click", we have taken a screenshot of the _inactive_ region of the last 
-# name of the person. 
-# The custom keyword "Wait For And Click" returns the location (x,y coordinates) of the
-# found region - we use these coordinates with "MoveDoubleClick" which does not need 
-# an image anymore but just the coordinates!
-# 
-# Tip: it is not possible to use "Wait For And Click" and "Wait For And Doubleclick" with 
-# the same image. 
-# - Reason 1: As soon as the robot clicks the entry it gets active => the reference image 
-#   is does not match anymore. 
-# - Reason 2: Even worse, the click also triggers a "hover" effect which shows a hint flag 
-#   at the mouse position. This makes the detectoin of the entry unreliable. 
-
+# To do the "click", we have taken a screenshot of the _inactive_ region of the LAST_NAME 
+# of the person. 
+# Unfortunately, this click also triggers a "hover" effect which shows a hint flag at the 
+# mouse position. This makes the detection of the entry unreliable/impossible. 
+# The "Solution" is here to search for and click on another part of the marked line. We 
+# have made a screenshot of the marked FIRST name and saved it under ${FIRST_NAME}_marked.
 
 ##### 
 # Your tasks: 
-# - Set a breakpoint before MoveDoubleClick to see the coordinates of the found region. 
+# - run the test. 
 # - The test should open now the Person's entry. 
 
 *** Settings ***
@@ -51,10 +44,10 @@ Search For Entry
     Press Combination  Key.CTRL  f     
     Type  ${FIRST_NAME}       
     Sleep  1   # ⚠️    
-    ${loc}=  Wait For And Click  ${LAST_NAME}  # ⚠️   
+    Wait For And Click  ${LAST_NAME}                   # ⚠️
     # Set a breakpoint here 
-    MoveDoubleClick    ${loc}                  # ⚠️   
-
+    Wait For And Double Click    ${FIRST_NAME}_marked  # ⚠️  
+    
 Kill Addressbook
     Run Process  cmd.exe /c taskkill /F /IM AddressBook.exe  shell=True   
 

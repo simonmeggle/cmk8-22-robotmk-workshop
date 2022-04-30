@@ -41,9 +41,10 @@ Search User In Database
 Search For Entry 
     Press Combination  Key.CTRL  f     
     Type  ${FIRST_NAME}       
-    Sleep  1       
-    ${loc}=  Wait For And Click  ${LAST_NAME}     
-    MoveDoubleClick    ${loc}  
+    Sleep  1   
+    Wait For And Click  ${LAST_NAME}               
+    # Set a breakpoint here 
+    Wait For And Double Click    ${FIRST_NAME}_marked
     ${found}=  Run Keyword And Return Status                 # ⚠️   
     ...  Wait For  ${FIRST_NAME}_${LAST_NAME}_details        # ⚠️           
     IF  not ${found}                                         # ⚠️   
